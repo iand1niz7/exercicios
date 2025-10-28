@@ -1,1 +1,1 @@
-### ⌨️Algumas soluções que propus acerca de exercício na disciplina de Programação 2
+### ⌨️Algumas soluções que propus acerca de exercícios que farei no decorrer do curso
