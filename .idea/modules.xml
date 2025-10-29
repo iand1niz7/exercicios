@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BuscaLinear/BuscaLinear.iml" filepath="$PROJECT_DIR$/BuscaLinear/BuscaLinear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EncontraNegativo/EncontraNegativo.iml" filepath="$PROJECT_DIR$/EncontraNegativo/EncontraNegativo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EncontraQuebraElemento/EncontraQuebraElemento.iml" filepath="$PROJECT_DIR$/EncontraQuebraElemento/EncontraQuebraElemento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/exercicios.iml" filepath="$PROJECT_DIR$/.idea/exercicios.iml" />
+    </modules>
+  </component>
+</project>
