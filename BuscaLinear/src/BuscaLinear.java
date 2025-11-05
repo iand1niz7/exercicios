@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BuscaLinear {
+class BuscaLinear {
     public static void main(String[] arg){
         Scanner sc = new Scanner(System.in);
         String[] seqNum = sc.nextLine().split(" ");
