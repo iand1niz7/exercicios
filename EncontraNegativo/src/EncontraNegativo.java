@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Ian Gabriel
 class EncontraNegativo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

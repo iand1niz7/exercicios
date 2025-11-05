@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Ian Gabriel
 class BuscaLinear {
     public static void main(String[] arg){
         Scanner sc = new Scanner(System.in);
