@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/EncontraQuebraElemento/EncontraQuebraElemento.iml" filepath="$PROJECT_DIR$/EncontraQuebraElemento/EncontraQuebraElemento.iml" />
       <module fileurl="file://$PROJECT_DIR$/InserePrimeiro/InserePrimeiro.iml" filepath="$PROJECT_DIR$/InserePrimeiro/InserePrimeiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/InsereUltimo/InsereUltimo.iml" filepath="$PROJECT_DIR$/InsereUltimo/InsereUltimo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InsertionSortRecursivo/InsertionSortRecursivo.iml" filepath="$PROJECT_DIR$/InsertionSortRecursivo/InsertionSortRecursivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SelectionRecursivo/SelectionRecursivo.iml" filepath="$PROJECT_DIR$/SelectionRecursivo/SelectionRecursivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SelectionSortpap/SelectionSortpap.iml" filepath="$PROJECT_DIR$/SelectionSortpap/SelectionSortpap.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/exercicios.iml" filepath="$PROJECT_DIR$/.idea/exercicios.iml" />
     </modules>
   </component>
