@@ -1,52 +1,52 @@
-import java.util.Arraylist;
+import java.util.ArrayList;
+import java.util.Scanner;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class AVL {
+class BST{
     private Node root;
-    private int size;
 
-    public AVL(){
-        this.size = -1;
+    public BST(){
+    	this.root = null;
     }
 
-    public boolean isEmpty(){
-        return this.root == null;
-    }
-}
-public class Node {
+private class Node {
     int value;
-    int height;
     Node left;
     Node right;
     Node parent;
 
     Node(int v){
-        this.height = 0;
         this.value = v;
+	this.left = null;
+	this.right =  null;
     }
 }
+public void insert(int value){
+	root = inserir(root, value);
+}
 
-public Node inserir(Node root, int v){
-    if(root == null) return new Node(v);
-
-    if(v < root.v){
-        root.left = inserir(root.left, v);
+private Node inserir(Node root, int value){
+    if(root == null){
+    	return new Node(value);
+    }
+    if(value < root.value){
+        root.left = inserir(root.left, value);
     
-    } else if(v > root.v){
-        root.right = inserir(root.right, v);
+    } else if(value > root.value){
+        root.right = inserir(root.right, value);
     }
     
     return root;
 }
 
-public int altura(Node n){
+private int altura(Node n){
     if(n == null) return -1;
 
     int alturaEsq = altura(n.left);
     int alturaDir = altura(n.right);
 
-    return 1 + Math.max(alturaEsq, AlturaDir);
+    return 1 + Math.max(alturaEsq, alturaDir);
 }
 
 public int balance (Node n){
@@ -54,28 +54,34 @@ public int balance (Node n){
     
     return altura(n.left) - altura(n.right);
 }
-
-public void preOrderBalance(Node n){
+public void preOrderWithBalance(){
+	preOrder(root);
+}
+public void preOrder(Node n){
     if(n == null){
-        System.out.println(n.value + "," + balance(n));
+        System.out.println(n.value + "," + balance(n) + " ");
+    preOrder(n.left);
+    preOrder(n.right);
+    
     }
-    preOrderBalance(n.left);
-
-    preOrderBalance(n.right);
-
 }
 
 class BalanceArvore {
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
-        Node raiz = null;
+	BST tree = new BST();
 
-        while(sc.hasNextInt()){
-            int valor = sc.nextInt();
-            raiz = inserir(raiz, valor);
+	String[] numeros = sc.nextLine().trim().split("\\s+");
+
+        for(String num : numeros) {
+            tree.insert(Integer.parseInt(num));
         }
 
-        preOrderBalance(raiz);
-        sc.close();
+        tree.preOrderWithBalance();
+        System.out.println();
+
+	sc.close();
+    	}	
+
     }
 } 
