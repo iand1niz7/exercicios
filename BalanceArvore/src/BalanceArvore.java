@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Deque;
 import java.util.LinkedList;
 
-class BST{
+class BST {
     private Node root;
 
     public BST(){
@@ -58,15 +58,16 @@ public void preOrderWithBalance(){
 	preOrder(root);
 }
 public void preOrder(Node n){
-    if(n == null){
-        System.out.println(n.value + "," + balance(n) + " ");
-    preOrder(n.left);
-    preOrder(n.right);
+    if(n != null){
+    	System.out.println(n.value + "," + balance(n) + " ");
+    	preOrder(n.left);
+    	preOrder(n.right);
     
+    	}
     }
 }
 
-class BalanceArvore {
+public class BalanceArvore {
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
 	BST tree = new BST();
@@ -81,7 +82,6 @@ class BalanceArvore {
         System.out.println();
 
 	sc.close();
-    	}	
+    }	
 
-    }
 } 
