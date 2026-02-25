@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Balance/Balance.iml" filepath="$PROJECT_DIR$/Balance/Balance.iml" />
       <module fileurl="file://$PROJECT_DIR$/BuscaLinear/BuscaLinear.iml" filepath="$PROJECT_DIR$/BuscaLinear/BuscaLinear.iml" />
       <module fileurl="file://$PROJECT_DIR$/EncontraNegativo/EncontraNegativo.iml" filepath="$PROJECT_DIR$/EncontraNegativo/EncontraNegativo.iml" />
       <module fileurl="file://$PROJECT_DIR$/EncontraQuebraElemento/EncontraQuebraElemento.iml" filepath="$PROJECT_DIR$/EncontraQuebraElemento/EncontraQuebraElemento.iml" />
       <module fileurl="file://$PROJECT_DIR$/InserePrimeiro/InserePrimeiro.iml" filepath="$PROJECT_DIR$/InserePrimeiro/InserePrimeiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/InsereUltimo/InsereUltimo.iml" filepath="$PROJECT_DIR$/InsereUltimo/InsereUltimo.iml" />
       <module fileurl="file://$PROJECT_DIR$/InsertionSortRecursivo/InsertionSortRecursivo.iml" filepath="$PROJECT_DIR$/InsertionSortRecursivo/InsertionSortRecursivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RotacoesBST/RotacoesBST.iml" filepath="$PROJECT_DIR$/RotacoesBST/RotacoesBST.iml" />
       <module fileurl="file://$PROJECT_DIR$/SelectionRecursivo/SelectionRecursivo.iml" filepath="$PROJECT_DIR$/SelectionRecursivo/SelectionRecursivo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SelectionSortpap/SelectionSortpap.iml" filepath="$PROJECT_DIR$/SelectionSortpap/SelectionSortpap.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/exercicios.iml" filepath="$PROJECT_DIR$/.idea/exercicios.iml" />
